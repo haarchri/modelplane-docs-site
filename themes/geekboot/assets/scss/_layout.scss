@@ -138,3 +138,20 @@
   grid-area: content;
   min-width: 1px; // Fix width when bd-content contains a `<pre>` https://github.com/twbs/bootstrap/issues/25410
 }
+
+// GitHub star button
+.doc-content-version { gap: 12px; }
+.gh-star {
+  padding: 7px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  white-space: nowrap;
+  color: var(--mp-muted) !important;
+  border: 1px solid var(--toc-mobile-menu-outline);
+  border-radius: 999px;
+  text-decoration: none !important;
+  transition: color .2s;
+
+  &:hover { color: var(--body-font-color) !important; }
+}

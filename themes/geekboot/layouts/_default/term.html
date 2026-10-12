@@ -54,6 +54,7 @@
       {{ end }}
       {{ if $hasVersions }}
       <div class="doc-content-version">
+        {{ partialCached "github-star" . }}
         {{ partial "version-dropdown-menu" . }}
       </div>
       {{ end }}
